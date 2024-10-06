@@ -1,8 +1,8 @@
 [
     {
-    "latitude": 8.359735,
-    "longitude": 124.869206,
-    "message": "CCS Faculty Office"
+        "latitude": 8.359735,
+        "longitude": 124.869206,
+        "message": "CCS Faculty Office"
     },
     {
         "latitude": 8.359639,
@@ -18,6 +18,10 @@
         "latitude": 8.360219,
         "longitude": 124.867465,
         "message": "Student Centered New Building"
+    },
+    {
+        "latitude": 8.379257,
+        "longitude": 124.832283,
+        "message": "Balay sa di nako kaila"
     }
-    
 ]
