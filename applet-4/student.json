@@ -1,6 +1,14 @@
+[
     {
         "student_id": 20231993,
         "student_name": "Jacob Israel Ranin",
         "student_program": "BS - Information Technology",
         "student_enrolled_date": "2023-04-26"
+    },
+    {
+        "student_id": 20231874,
+        "student_name": "Kentlyn Pagongming",
+        "student_program": "BS - Information Technology",
+        "student_enrolled_date": "2023-05-20"
     }
+]
