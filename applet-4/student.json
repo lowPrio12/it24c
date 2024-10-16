@@ -10,5 +10,11 @@
         "student_name": "Kentlyn Pagongming",
         "student_program": "BS - Information Technology",
         "student_enrolled_date": "2023-05-20"
+    },
+    {
+        "student_id": 20231740,
+        "student_name": "Josh Gabitano",
+        "student_program": "BS - Information Technology",
+        "student_enrolled_date": "2023-06-10"
     }
 ]
