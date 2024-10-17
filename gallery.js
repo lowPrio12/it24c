@@ -7,3 +7,5 @@ fetch('data.json')
         renderApplets(applets); 
   .catch (error => console.error('Error fetching JSON:', error));
 
+function renderApplets(applets) {
+
