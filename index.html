@@ -31,8 +31,8 @@
     }
 
     .card {
-      width: 15rem; /* Move inline styles here */
-      margin: 0.5rem; /* Add margin for spacing */
+      width: 15rem;
+      margin: 0.5rem;
     }
 
     .eyy {
@@ -66,53 +66,17 @@
             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+        <form class="d-flex" role="search" onsubmit="return false;">
+          <input class="form-control me-2" type="search" id="searchInput" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit" id="searchButton">Search</button>
         </form>
       </div>
     </div>
   </nav>
 
   <h1 class="title">APP GALLERY</h1>
-  <div class="applet-flex-container">
-    <div class="card">
-      <img src="https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_640.jpg" class="card-img-top"
-        height="180px">
-      <div class="card-body">
-        <h5 class="card-title">Applet 1 - Basic Events</h5>
-        <p class="card-text">This application contains the basic implementation of DOM events.</p>
-        <a href="./applet-1/" class="btn btn-primary">Go to Applet</a>
-      </div>
-    </div>
+  <div class="applet-flex-container" id="appletContainer"></div>
 
-    <div class="card">
-      <img src="https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_640.jpg" class="card-img-top" height="180px">
-      <div class="card-body">
-        <h5 class="card-title">Applet 2 - Leaflet Map</h5>
-        <p class="card-text">This application contains the basic web map.</p>
-        <a href="./applet-2/" class="btn btn-primary">Go to Applet</a>
-      </div>
-    </div>
-
-    <div class="card">
-      <img src="https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_640.jpg" class="card-img-top" height="180px">
-      <div class="card-body">
-        <h5 class="card-title">Applet 3 - Event Logger</h5>
-        <p class="card-text">This application contains the logs with the date and total number of logs.</p>
-        <a href="./applet-3/" class="btn btn-primary">Go to Applet</a>
-      </div>
-    </div>
-
-    <div class="card applet-card" >
-      <img src="https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_640.jpg" class="card-img-top" height="180px">
-      <div class="card-body">
-        <h5 class="card-title">Applet 4 - Dynamic Elements </h5>
-        <p class="card-text">This application applies dynamic elements such as rendering DOM elements from a list</p>
-        <a href="./applet-4/" class="btn btn-primary">Go to Applet</a>
-      </div>
-    </div>
-  </div>
   <script src="gallery.js"></script>
 </body>
 
