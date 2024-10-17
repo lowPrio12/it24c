@@ -14,3 +14,8 @@ function renderApplets(applets) {
     applets.forEach(applet => {
         const card = document.createElement('div');
         card.classList.add('card');
+        const img = document.createElement('img');
+        img.src = applet.imageUrl;
+        img.classList.add('card-img-top');
+        img.height = 180;
+
