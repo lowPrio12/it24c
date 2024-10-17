@@ -18,4 +18,6 @@ function renderApplets(applets) {
         img.src = applet.imageUrl;
         img.classList.add('card-img-top');
         img.height = 180;
+        const cardBody = document.createElement('div');
+        cardBody.classList.add('card-body');
 
