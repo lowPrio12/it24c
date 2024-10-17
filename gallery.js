@@ -27,3 +27,7 @@ function renderApplets(applets) {
         const text = document.createElement('p');
         text.classList.add('card-text');
         text.textContent = applet.description;
+        const button = document.createElement('a');
+        button.classList.add('btn', 'btn-primary');
+        button.href = applet.link;
+        button.textContent = 'Go to Applet';
