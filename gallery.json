@@ -16,5 +16,11 @@
         "description": "This application contains the logs with the date and total number of logs.",
         "imageUrl": "https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_640.jpg",
         "link": "./applet-3/"
+    },
+    {
+        "title": "Applet 4 - Dynamic Elements",
+        "description": "This application applies dynamic elements such as rendering DOM elements from a list.",
+        "imageUrl": "https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_640.jpg",
+        "link": "./applet-4/"
     }
 ]
