@@ -12,3 +12,5 @@ function renderApplets(applets) {
     appletContainer.innerHTML = '';
 
     applets.forEach(applet => {
+        const card = document.createElement('div');
+        card.classList.add('card');
