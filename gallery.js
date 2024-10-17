@@ -37,3 +37,6 @@ function renderApplets(applets) {
         card.appendChild(img);
         card.appendChild(cardBody);
         appletContainer.appendChild(card);
+
+
+        document.getElementById('searchButton').addEventListener('click', function () {
