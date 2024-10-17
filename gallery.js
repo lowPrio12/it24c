@@ -24,3 +24,6 @@ function renderApplets(applets) {
         const title = document.createElement('h5');
         title.classList.add('card-title');
         title.textContent = applet.title;
+        const text = document.createElement('p');
+        text.classList.add('card-text');
+        text.textContent = applet.description;
