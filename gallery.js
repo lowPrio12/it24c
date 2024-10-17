@@ -21,3 +21,6 @@ function renderApplets(applets) {
         const cardBody = document.createElement('div');
         cardBody.classList.add('card-body');
 
+        const title = document.createElement('h5');
+        title.classList.add('card-title');
+        title.textContent = applet.title;
