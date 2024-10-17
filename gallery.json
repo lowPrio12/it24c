@@ -1,14 +1,20 @@
 [
     {
-    "title": "Applet 1 - Basic Events",
-    "description": "This application contains the basic implementation of DOM events.",
-    "imageUrl": "https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_640.jpg",
-    "link": "./applet-1/"
-  },
-  {
-    "title": "Applet 2 - Leaflet Map",
-    "description": "This application contains the basic web map.",
-    "imageUrl": "https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_640.jpg",
-    "link": "./applet-2/"
-  }
+        "title": "Applet 1 - Basic Events",
+        "description": "This application contains the basic implementation of DOM events.",
+        "imageUrl": "https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_640.jpg",
+        "link": "./applet-1/"
+    },
+    {
+        "title": "Applet 2 - Leaflet Map",
+        "description": "This application contains the basic web map.",
+        "imageUrl": "https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_640.jpg",
+        "link": "./applet-2/"
+    },
+    {
+        "title": "Applet 3 - Event Logger",
+        "description": "This application contains the logs with the date and total number of logs.",
+        "imageUrl": "https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_640.jpg",
+        "link": "./applet-3/"
+    }
 ]
