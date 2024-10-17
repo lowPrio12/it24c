@@ -9,5 +9,6 @@ fetch('data.json')
 
 function renderApplets(applets) {
     const appletContainer = document.getElementById('appletContainer');
-    appletContainer.innerHTML = ''; // Clear existing content
+    appletContainer.innerHTML = '';
 
+    applets.forEach(applet => {
