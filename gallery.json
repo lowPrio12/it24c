@@ -22,5 +22,11 @@
         "description": "This application applies dynamic elements such as rendering DOM elements from a list.",
         "imageUrl": "https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_640.jpg",
         "link": "./applet-4/"
+    },
+    {
+        "title": "Applet 5 - Open Weather",
+        "description": "This application is a weather app where it displays the weather you input.",
+        "imageUrl": "https://cdn.pixabay.com/photo/2016/12/06/01/26/colour-1885352_640.jpg",
+        "link": "./applet-5/"
     }
 ]
