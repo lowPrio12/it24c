@@ -12,5 +12,6 @@ class WeatherApp {
         
         //Weather Card
         this.weatherCard = document.getElementById('weatherCard');
+        this.cityName = document.getElementById('cityName');
     }
 }
