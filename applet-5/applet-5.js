@@ -15,5 +15,6 @@ class WeatherApp {
         this.cityName = document.getElementById('cityName');
         this.temperature = document.getElementById('temperature');
         this.description = document.getElementById('description');
+        this.humidity = document.getElementById('humidity');
     }
 }
