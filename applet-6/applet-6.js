@@ -7,9 +7,9 @@ class TodoList {
 
         this.addButton.addEventListener('click', () => this.addOrUpdateTask());
         this.todoList.addEventListener('click', (e) => {
-            const action = e.target.classList.contains('removeButton') ? 'remove' : 
-                           e.target.classList.contains('editButton') ? 'edit' : 
-                           e.target.classList.contains('doneButton') ? 'done' : null;
+            const action = e.target.classList.contains('removeButton') ? 'remove' :
+                e.target.classList.contains('editButton') ? 'edit' :
+                    e.target.classList.contains('doneButton') ? 'done' : null;
             if (action) this[action + 'Task'](e);
         });
     }
@@ -33,12 +33,17 @@ class TodoList {
             </div>
         `;
         this.todoList.appendChild(listItem);
-    }doneTask(event) {
+    } doneTask(event) {
         const taskItem = event.target.closest('.todo-item');
         const taskText = taskItem.querySelector('.task-text');
-        taskText.classList.toggle('completed'); 
+        taskText.classList.toggle('completed');
 
         const buttons = taskItem.querySelectorAll('button');
         buttons.forEach(button => button.disabled = true);
     }
+    updateTask(taskText) {
+        this.todoList.children[this.editingIndex].querySelector('.task-text').textContent = taskText;
+        this.resetEditing();
+    }
+
 }
