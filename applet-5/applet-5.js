@@ -9,5 +9,8 @@ class WeatherApp {
 
          //Geolocation Input
         this.getLocationBtn = document.getElementById('LocationBtn');
+        
+        //Weather Card
+        this.weatherCard = document.getElementById('weatherCard');
     }
 }
